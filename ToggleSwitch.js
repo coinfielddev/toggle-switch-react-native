@@ -23,10 +23,10 @@ export default class ToggleSwitch extends React.Component {
     switch (size) {
       case "small":
         return {
-          width: 38,
+          width: 42,
           padding: 10,
-          circleWidth: 12,
-          circleHeight: 12,
+          circleWidth: 19,
+          circleHeight: 19,
           translateX: 20,
         };
       case "large":
